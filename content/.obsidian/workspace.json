@@ -1,0 +1,183 @@
+{
+  "main": {
+    "id": "1da3446db8e2f222",
+    "type": "split",
+    "children": [
+      {
+        "id": "a7204a3161720716",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7e908b782157c24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/document-style/other/如何下载国内外标准.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "76a111881001a056",
+    "type": "split",
+    "children": [
+      {
+        "id": "51709e6c5fd1468b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a752e8c3d6d4cc42",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a1172a1c3a3f4f9a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fd8602d44c033ac8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "dfeb29057810f45b",
+    "type": "split",
+    "children": [
+      {
+        "id": "aa0613b86a0fba01",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "036866be2035d5a1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/document-style/other/如何下载国内外标准.md",
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e182b8ea665fa74b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/document-style/other/如何下载国内外标准.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d7877985d0167d53",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1c6acf3ef0a6b94a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/document-style/other/如何下载国内外标准.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "command-palette:打开命令面板": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "e7e908b782157c24",
+  "lastOpenFiles": [
+    "docs/document-style/_index.md",
+    "docs/document-style/AboutWriting/_index.md",
+    "docs/document-style/other/_index.md",
+    "docs/document-style/AboutWriting/article-layout.md",
+    "docs/syntax/_index.md",
+    "docs/document-style/document-layout.md",
+    "docs/document-style/other/如何下载国内外标准.md",
+    "docs/document-style/AboutWriting/为什么你们就是不能加个空格呢.md",
+    "docs/document-style/AboutWriting/文章标题多少字最合适.md",
+    "docs/document-style/AboutWriting/数字序号的七个层级.md",
+    "docs/document-style/AboutWriting/常用图片比例.md",
+    "docs/document-style/AboutWriting/文章标题中标点符号的用法.md",
+    "docs/document-style/AboutWriting/怎样为文章配图.md",
+    "docs/document-style/other/文字与背景间对比度的选择.md",
+    "docs/document-style/other/选用合适的字体.md",
+    "docs/document-style/other/为什么黑色主题伤眼.md",
+    "_index.md",
+    "menu/index.md",
+    "docs/syntax/detailed/_index.md",
+    "docs/syntax/detailed/wrapping&indenting.md",
+    "docs/syntax/detailed/math-formula.md",
+    "docs/syntax/detailed/quote.md",
+    "docs/syntax/detailed/split-line.md",
+    "docs/syntax/detailed/symbols.md",
+    "docs/syntax/detailed/table.md",
+    "docs/syntax/detailed/to-do-list.md",
+    "Pasted image 20230929220129.png",
+    "page/board",
+    "page/新建文件夹",
+    "categories/未命名",
+    "categories/折腾",
+    "未命名"
+  ]
+}
