@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/document-style/other/如何下载国内外标准.md",
+                "file": "docs/syntax/detailed/math-formula.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/document-style/other/如何下载国内外标准.md",
+                "file": "docs/syntax/detailed/math-formula.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/document-style/other/如何下载国内外标准.md",
+                "file": "docs/syntax/detailed/math-formula.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/document-style/other/如何下载国内外标准.md"
+                "file": "docs/syntax/detailed/math-formula.md"
               }
             }
           }
@@ -147,31 +147,32 @@
   },
   "active": "e7e908b782157c24",
   "lastOpenFiles": [
-    "docs/document-style/_index.md",
-    "docs/document-style/AboutWriting/_index.md",
-    "docs/document-style/other/_index.md",
-    "docs/document-style/AboutWriting/article-layout.md",
     "docs/syntax/_index.md",
-    "docs/document-style/document-layout.md",
-    "docs/document-style/other/如何下载国内外标准.md",
-    "docs/document-style/AboutWriting/为什么你们就是不能加个空格呢.md",
-    "docs/document-style/AboutWriting/文章标题多少字最合适.md",
-    "docs/document-style/AboutWriting/数字序号的七个层级.md",
-    "docs/document-style/AboutWriting/常用图片比例.md",
-    "docs/document-style/AboutWriting/文章标题中标点符号的用法.md",
-    "docs/document-style/AboutWriting/怎样为文章配图.md",
-    "docs/document-style/other/文字与背景间对比度的选择.md",
-    "docs/document-style/other/选用合适的字体.md",
-    "docs/document-style/other/为什么黑色主题伤眼.md",
-    "_index.md",
+    "docs/intro.md",
     "menu/index.md",
     "docs/syntax/detailed/_index.md",
-    "docs/syntax/detailed/wrapping&indenting.md",
-    "docs/syntax/detailed/math-formula.md",
-    "docs/syntax/detailed/quote.md",
+    "docs/software.md",
+    "docs/syntax/detailed/bold&italic&underline.md",
+    "docs/document-style/_index.md",
+    "_index.md",
+    "menu",
+    "docs/document-style/article-layout.md",
+    "docs/syntax/detailed/toc.md",
+    "docs/syntax/detailed/audio.md",
+    "docs/syntax/detailed/code-block.md",
+    "docs/syntax/detailed/flow-chart.md",
+    "docs/syntax/detailed/image.md",
     "docs/syntax/detailed/split-line.md",
-    "docs/syntax/detailed/symbols.md",
-    "docs/syntax/detailed/table.md",
+    "docs/syntax/detailed/map.md",
+    "docs/document-style/title-word-count.md",
+    "docs/document-style/standard-download.md",
+    "docs/document-style/punctuation-mark.md",
+    "docs/document-style/numbering.md",
+    "docs/document-style/layout.md",
+    "docs/document-style/illustrations.md",
+    "docs/document-style/blank.md",
+    "docs/syntax/detailed/video.md",
+    "docs/syntax/detailed/wrapping&indenting.md",
     "docs/syntax/detailed/to-do-list.md",
     "Pasted image 20230929220129.png",
     "page/board",
