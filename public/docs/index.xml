@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on Markdown</title>
+    <link>https://md.xalaok.top/docs/</link>
+    <description>Recent content in Docs on Markdown</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <atom:link href="https://md.xalaok.top/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown 介绍</title>
+      <link>https://md.xalaok.top/docs/intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://md.xalaok.top/docs/intro/</guid>
+      <description> Markdown 是什么？ # Markdown 是一种轻量级标记语言，它以纯文本形式（易读、易写、易更改）编写文档，并最终以 HTML 格式发布。 Markdown 也可以理解为将以 MARKDOWN 语法编写的语言转换成 HTML 内容的工具。
+谁创造了它？ # 它由 Aaron Swartz 和 John Gruber 共同设计，Aaron Swartz 就是那位于 2013年1月11日 自杀，有着开挂一般人生经历的程序员。维基百科对他的 介绍是：软件工程师、作家、政治组织者、互联网活动家、维基百科人。
+他有着足以让你跪拜的人生经历：
+14岁参与 RSS 1.0 规格标准的制订。 2004年入读斯坦福，之后退学。 2005年创建 Infogami，之后与 Reddit 合并成为其合伙人。 2010年创立求进会（Demand Progress），积极参与禁止网络盗版法案（SOPA）活动，最终该提案被撤回。 2011年7月19日，因被控从 MIT 和 JSTOR 下载 480 万篇学术论文并以免费形式上传于网络被捕。 2013年1月自杀身亡。 为什么要使用它？ # 它是易读（看起来舒服）、易写（语法简单）、易更改纯文本。处处体现着极简主义的影子。 兼容 HTML，可以转换为 HTML 格式发布。 跨平台使用。 越来越多的网站支持 Markdown。 更方便清晰地组织你的电子邮件。（Markdown-here, Airmail） 摆脱 Word（我不是认真的）。 </description>
+    </item>
+    <item>
+      <title>编辑器</title>
+      <link>https://md.xalaok.top/docs/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://md.xalaok.top/docs/software/</guid>
+      <description>一些常见的 Markdown 编辑器：
+编辑器 性质 Mac Windows Linux Android iPhone Web 强烈推荐 Typora 商业软件 √ √ √ Yes VS Code 开源免费 √ √ √ √ Yes 马克飞象 免费模式 √ √ √ Yes ghostwriter 开源免费 √ √ Yes Zettlr 开源免费 √ √ √ MindForger 开源免费 √ √ Mou 商业软件 √ Cmd Markdown 免费模式 √ √ √ √ StackEdit 免费模式 √ Mark Text 免费模式 √ √ √ Abricotine 开源免费 √ √ √ </description>
+    </item>
+  </channel>
+</rss>

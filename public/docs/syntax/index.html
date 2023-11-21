@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Markdown 遍地开花流行世界，是因为 Markdown 可快速成文且语法简单。当然，新手要多写文章才能掌握语法的运用，同时必须整理一份学习笔记用于回看。
+此文档可以带你快速上手 Markdown 写作，但如果要成为资深 Markdown 玩家，还需要学习更多知识，比如去看 Markdown Guide 或者 Markdown 书籍，甚至 Markdown 规范。
+该简明版主要参照 Typora 的 Markdown Reference。更详细的语法，可参考左侧相关条目。
+区块元素 # 标题 # 在行首使用 1-6 个 # 字符，对应于标题级别 1-6。例如:
+# 这是 H1 # typora 快捷键 Ctrl-1 ## 这是 H2 # typora 快捷键 Ctrl-2（常用） ### 这是 H3 # typora 快捷键 Ctrl-3（常用） #### 这是 H4 # typora 快捷键 Ctrl-4 段落和换行符 # 段落由一个或更多的空行分隔。
+段落内换行使用换行符 &lt;br&gt;，或者 两个空格 &#43; shift-Enter。不推荐使用 \ &#43; shift-Enter。">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Markdown 语法・简明版" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://md.xalaok.top/docs/syntax/" />
+
+<title>Markdown 语法・简明版 | Markdown</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="stylesheet" href="/book.min.fac6c5b1eaffa2a02364ff50bd9fab82e01b1277c544426ee86a60fba56e02d0.css" integrity="sha256-&#43;sbFser/oqAjZP9QvZ&#43;rguAbEnfFREJu6Gpg&#43;6VuAtA=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/zh.search.min.183223028697c07cb8e4555382433fafb5e7df1995257042b76032f4f0490f20.js" integrity="sha256-GDIjAoaXwHy45FVTgkM/r7Xn3xmVJXBCt2Ay9PBJDyA=" crossorigin="anonymous"></script>
+
+  <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
+<link rel="alternate" type="application/rss+xml" href="https://md.xalaok.top/docs/syntax/index.xml" title="Markdown" />
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><img src="/logo.png" alt="Logo" /><span>Markdown</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="搜索" aria-label="搜索" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li>
+<p>
+  <a href="/docs/intro/"><strong>Markdown 简介</strong></a></p>
+</li>
+<li>
+<p><strong>Markdown 语法</strong></p>
+</li>
+<li>
+<p>
+  <a href="/docs/syntax/"class=active>简明版</a></p>
+</li>
+<li>
+<p>
+  <a href="/docs/syntax/detailed/">详细版</a></p>
+<ul>
+<li>
+  <a href="/docs/syntax/detailed/headline/">标题</a></li>
+<li>
+  <a href="/docs/syntax/detailed/quote/">引用</a></li>
+<li>
+  <a href="/docs/syntax/detailed/bolditalicunderline/">加粗倾斜下划线等</a></li>
+<li>
+  <a href="/docs/syntax/detailed/link/">链接</a></li>
+<li>
+  <a href="/docs/syntax/detailed/image/">图片</a></li>
+<li>
+  <a href="/docs/syntax/detailed/list/">列表</a></li>
+<li>
+  <a href="/docs/syntax/detailed/to-do-list/">任务列表</a></li>
+<li>
+  <a href="/docs/syntax/detailed/code-block/">代码块与语法高亮</a></li>
+<li>
+  <a href="/docs/syntax/detailed/wrappingindenting/">换行与段首缩进</a></li>
+<li>
+  <a href="/docs/syntax/detailed/table/">表格</a></li>
+<li>
+  <a href="/docs/syntax/detailed/details/">折叠内容</a></li>
+<li>
+  <a href="/docs/syntax/detailed/toc/">目录</a></li>
+<li>
+  <a href="/docs/syntax/detailed/split-line/">分割线</a></li>
+<li>
+  <a href="/docs/syntax/detailed/footnote/">注脚</a></li>
+<li>
+  <a href="/docs/syntax/detailed/audio/">音频</a></li>
+<li>
+  <a href="/docs/syntax/detailed/video/">视频</a></li>
+<li>
+  <a href="/docs/syntax/detailed/symbols/">特殊符号</a></li>
+<li>
+  <a href="/docs/syntax/detailed/math-formula/">数学公式</a></li>
+<li>
+  <a href="/docs/syntax/detailed/flow-chart/">流程图</a></li>
+<li>
+  <a href="/docs/syntax/detailed/font/">设置字体、字号与颜色</a></li>
+</ul>
+</li>
+<li>
+<p>
+  <a href="/docs/document-style/"><strong>Markdown 写作规范</strong></a></p>
+<ul>
+<li>
+  <a href="/docs/document-style/layout/">文档布局</a></li>
+<li>
+  <a href="/docs/document-style/article-layout/">Article Layout</a></li>
+<li>
+  <a href="/docs/document-style/title-word-count/">文章标题多少字最合适？</a></li>
+<li>
+  <a href="/docs/document-style/punctuation-mark/">文章标题中标点符号的用法</a></li>
+<li>
+  <a href="/docs/document-style/blank/">为什么你们就是不能加个空格呢？</a></li>
+<li>
+  <a href="/docs/document-style/numbering/">数字序号的七个层级</a></li>
+<li>
+  <a href="/docs/document-style/illustrations/">怎样为文章「配图」</a></li>
+<li>
+  <a href="/docs/document-style/standard-download/">如何下载国内外标准</a></li>
+</ul>
+</li>
+<li>
+<p>
+  <a href="/docs/software/">Markdown 编辑器</a></p>
+</li>
+</ul>
+<br>
+<a target="_blank" href="https://notbyai.fyi"><img src="/notbyai.png" title="Written by Human, Not by AI"></a>
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="https://www.xalaok.top/"  target="_blank" rel="noopener">
+        Maintainer
+      </a>
+  </li>
+  
+  <li>
+    <a href="https://github.com/Xalaok/md-docs"  target="_blank" rel="noopener">
+        Github Repo
+      </a>
+  </li>
+  
+  <li>
+    <a href="https://keatonlao.gitee.io/a-study-note-for-markdown/"  target="_blank" rel="noopener">
+        Original Author
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Markdown 语法・简明版</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#区块元素">区块元素</a>
+          <ul>
+            <li><a href="#标题">标题</a></li>
+            <li><a href="#段落和换行符">段落和换行符</a></li>
+            <li><a href="#段首缩进">段首缩进</a></li>
+            <li><a href="#引用">引用</a></li>
+            <li><a href="#列表">列表</a></li>
+            <li><a href="#任务列表">任务列表</a></li>
+            <li><a href="#代码块">代码块</a></li>
+            <li><a href="#数学公式">数学公式</a></li>
+            <li><a href="#表格">表格</a></li>
+            <li><a href="#流程图">流程图</a></li>
+            <li><a href="#脚注">脚注</a></li>
+            <li><a href="#水平分隔线">水平分隔线</a></li>
+            <li><a href="#yaml-front-matter">YAML Front Matter</a></li>
+            <li><a href="#目录">目录</a></li>
+          </ul>
+        </li>
+        <li><a href="#区段元素">区段元素</a>
+          <ul>
+            <li><a href="#链接">链接</a></li>
+            <li><a href="#图片">图片</a></li>
+            <li><a href="#强调">强调</a></li>
+            <li><a href="#粗体">粗体</a></li>
+            <li><a href="#加粗斜体">加粗斜体</a></li>
+            <li><a href="#代码">代码</a></li>
+            <li><a href="#删除线">删除线</a></li>
+            <li><a href="#下划线">下划线</a></li>
+            <li><a href="#emoji-smile">Emoji :smile:</a></li>
+            <li><a href="#下标">下标</a></li>
+            <li><a href="#上标">上标</a></li>
+          </ul>
+        </li>
+        <li><a href="#html">HTML</a>
+          <ul>
+            <li><a href="#折叠内容">折叠内容</a></li>
+            <li><a href="#嵌入内容">嵌入内容</a></li>
+            <li><a href="#audio">Audio</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#其他-html-支持">其他 HTML 支持</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><blockquote class="book-hint info">
+  <p>Markdown 遍地开花流行世界，是因为 Markdown 可快速成文且语法简单。当然，新手要多写文章才能掌握语法的运用，同时必须整理一份学习笔记用于回看。</p>
+<p>此文档可以带你快速上手 Markdown 写作，但如果要成为资深 Markdown 玩家，还需要学习更多知识，比如去看 
+  <a href="https://www.markdownguide.org/basic-syntax/#overview">Markdown Guide</a> 或者 Markdown 书籍，甚至 
+  <a href="https://spec.commonmark.org/">Markdown 规范</a>。</p>
+
+</blockquote>
+
+<p>该简明版主要参照 Typora 的 
+  <a href="https://support.typora.io/Markdown-Reference/">Markdown Reference</a>。更详细的语法，可参考左侧相关条目。</p>
+<h2 id="区块元素">
+  区块元素
+  <a class="anchor" href="#%e5%8c%ba%e5%9d%97%e5%85%83%e7%b4%a0">#</a>
+</h2>
+<h3 id="标题">
+  标题
+  <a class="anchor" href="#%e6%a0%87%e9%a2%98">#</a>
+</h3>
+<p>在行首使用 1-6 个 <code>#</code> 字符，对应于标题级别 1-6。例如:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span># 这是 H1        # typora 快捷键 Ctrl-1
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## 这是 H2       # typora 快捷键 Ctrl-2（常用）
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">### 这是 H3      # typora 快捷键 Ctrl-3（常用）
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#### 这是 H4     # typora 快捷键 Ctrl-4
+</span></span></span></code></pre></div><h3 id="段落和换行符">
+  段落和换行符
+  <a class="anchor" href="#%e6%ae%b5%e8%90%bd%e5%92%8c%e6%8d%a2%e8%a1%8c%e7%ac%a6">#</a>
+</h3>
+<p>段落由一个或更多的空行分隔。</p>
+<p>段落内换行使用换行符 <code>&lt;br&gt;</code>，或者 <code>两个空格</code> + <code>shift-Enter</code>。不推荐使用  <code>\</code> + <code>shift-Enter</code>。</p>
+<blockquote>
+<p>Typora <strong>段落</strong>快捷键：<code>ctrl-0</code></p>
+</blockquote>
+<h3 id="段首缩进">
+  段首缩进
+  <a class="anchor" href="#%e6%ae%b5%e9%a6%96%e7%bc%a9%e8%bf%9b">#</a>
+</h3>
+<p>使用 Markdown 写文章不需要段首缩进。但如果确实有需要的话，可以在段落前面使用两个全角空格（space）。因为一个全角空格的宽度是整整一个汉字，输入两个全角空格正好是两个汉字的宽度。</p>
+<p>一般的中文输入法都是按 <code>shift-Space</code> 切换到全角模式，输完两个空格后，再次按 <code>shift-Space</code> 回到正常输入状态。</p>
+<h3 id="引用">
+  引用
+  <a class="anchor" href="#%e5%bc%95%e7%94%a8">#</a>
+</h3>
+<p>使用标记符 <code>&gt;</code> 对内容进行引用。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">This is a blockquote with two paragraphs. This is first paragraph.
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span><span style="color:#66d9ef">&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef"></span><span style="font-style:italic">&gt; This is second pragraph. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span><span style="color:#66d9ef">
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">This is another blockquote with one paragraph. There is three empty line to seperate two blockquote.
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span>（这是另一个只有一个段落的引用。用三个空行来分隔两个引用。）
+</span></span></code></pre></div><blockquote>
+<p>Typora <strong>引用</strong>快捷键：<code>ctrl-shift-Q</code>。牢记：<span style="color:red">重按快捷键取消</span>。</p>
+</blockquote>
+<h3 id="列表">
+  列表
+  <a class="anchor" href="#%e5%88%97%e8%a1%a8">#</a>
+</h3>
+<p>使用 <code>*</code> 创建一个无序列表，标记符号 <code>*</code> 可以替换为 <code>+</code> 或 <code>-</code>。</p>
+<p>使用 <code>1. list item 1</code> 创建一个有序列表。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#75715e">## un-ordered list
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">*</span>   Red
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">*</span>   Green
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">*</span>   Blue
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## ordered list
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">1.</span>  Red
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">2.</span> 	Green
+</span></span><span style="display:flex;"><span>3.	Blue
+</span></span></code></pre></div><blockquote>
+<p>Typora 快捷键</p>
+<p><strong>有序列表</strong>快捷键：<code>ctrl-shift-[</code><br>
+<strong>无序列表</strong>快捷键：<code>ctrl-shift-]</code>。在 <strong>偏好设置 &gt; Markdown</strong> 中可设置偏好为符号 <code>*</code>。</p>
+</blockquote>
+<h3 id="任务列表">
+  任务列表
+  <a class="anchor" href="#%e4%bb%bb%e5%8a%a1%e5%88%97%e8%a1%a8">#</a>
+</h3>
+<p>任务列表是将项目标记为 <code>[]</code> 或 <code>[x]</code>（未完成或已完成）的列表。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">- [ ]</span> a task list item
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">- [x]</span> list syntax required
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">- [ ]</span> normal <span style="font-weight:bold">**formatting**</span>, @mentions, #1234 refs
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">- [ ]</span> incomplete
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">- [x]</span> completed
+</span></span></code></pre></div><ul>
+<li><input disabled="" type="checkbox"> a task list item
+<ul>
+<li><input checked="" disabled="" type="checkbox"> list syntax required</li>
+<li><input disabled="" type="checkbox"> normal <strong>formatting</strong>, @mentions, #1234 refs</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> incomplete</li>
+<li><input checked="" disabled="" type="checkbox"> completed</li>
+</ul>
+<h3 id="代码块">
+  代码块
+  <a class="anchor" href="#%e4%bb%a3%e7%a0%81%e5%9d%97">#</a>
+</h3>
+<p>在多行代码的前一行及后一行使用三个反引号（~ 键）将其标记为代码块。同时第一行反引号后面，输入所属语言实现代码高亮。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>Here&#39;s an example:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>​```
+</span></span><span style="display:flex;"><span>function test() {
+</span></span><span style="display:flex;"><span>  console.log(&#34;notice the blank line before this function?&#34;);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>​```
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>syntax highlighting:
+</span></span><span style="display:flex;"><span>​```ruby
+</span></span><span style="display:flex;"><span>require &#39;redcarpet&#39;
+</span></span><span style="display:flex;"><span>markdown = Redcarpet.new(&#34;Hello World!&#34;)
+</span></span><span style="display:flex;"><span>puts markdown.to_html
+</span></span><span style="display:flex;"><span>​```
+</span></span></code></pre></div><blockquote>
+<p>Typora <strong>代码块</strong>快捷键：<code>ctrl-shift-K</code></p>
+</blockquote>
+<h3 id="数学公式">
+  数学公式
+  <a class="anchor" href="#%e6%95%b0%e5%ad%a6%e5%85%ac%e5%bc%8f">#</a>
+</h3>
+<p>当你需要在编辑器中插入数学公式时，可以使用两个美元符 <code>$$</code> 包裹 TeX 或 LaTeX 格式的数学公式来实现。</p>
+<p>如：一个简单的数学公式，求圆的面积。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>$$
+</span></span><span style="display:flex;"><span>S=\pi r^2
+</span></span><span style="display:flex;"><span>$$
+</span></span></code></pre></div>
+<link rel="stylesheet" href="/katex/katex.min.css" />
+<script defer src="/katex/katex.min.js"></script>
+<script defer src="/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script><span>
+  \[S=\pi r^2\]
+</span>
+
+<blockquote>
+<p>Typora <strong>公式块</strong>快捷键：<code>ctrl-shift-M</code></p>
+</blockquote>
+<h3 id="表格">
+  表格
+  <a class="anchor" href="#%e8%a1%a8%e6%a0%bc">#</a>
+</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>|学号|姓名|分数|
+</span></span><span style="display:flex;"><span>|---|---|---|
+</span></span><span style="display:flex;"><span>|小明|男|75|
+</span></span><span style="display:flex;"><span>|小红|女|79|
+</span></span><span style="display:flex;"><span>|小陆|男|92|
+</span></span></code></pre></div><p>通过在标题行中包含冒号（<code>：</code>），可以将该列中的文本定义为左对齐，右对齐或居中对齐：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Left-Aligned  | Center Aligned  | Right Aligned |
+</span></span><span style="display:flex;"><span>| :------------ |:---------------:| -----:|
+</span></span><span style="display:flex;"><span>| col 3 is      | some wordy text | $1600 |
+</span></span><span style="display:flex;"><span>| col 2 is      | centered        |   $12 |
+</span></span><span style="display:flex;"><span>| zebra stripes | are neat        |    $1 |
+</span></span></code></pre></div><p>最左侧的冒号表示左对齐的列（默认即为左对齐）；最右边的冒号表示右对齐的列；两侧的冒号表示中心对齐的列。</p>
+<blockquote>
+<p>Typora <strong>表格</strong>快捷键：<code>ctrl-T</code></p>
+</blockquote>
+<h3 id="流程图">
+  流程图
+  <a class="anchor" href="#%e6%b5%81%e7%a8%8b%e5%9b%be">#</a>
+</h3>
+<p><strong>横向流程图：</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>graph LR;
+</span></span><span style="display:flex;"><span>A[Hard edge] --&gt;|Label| B(Round edge)
+</span></span><span style="display:flex;"><span>B --&gt; C{Decision}
+</span></span><span style="display:flex;"><span>C --&gt;|One| D[Result one]
+</span></span><span style="display:flex;"><span>C --&gt;|Two| E[Result two]
+</span></span></code></pre></div>
+
+<script src="/mermaid.min.js"></script>
+
+  <script>mermaid.initialize({
+  "flowchart": {
+    "useMaxWidth":true
+  },
+  "theme": "default"
+}
+)</script>
+
+
+
+
+<p class="mermaid">
+graph LR;
+A[Hard edge] -->|Label| B(Round edge)
+B --> C{Decision}
+C -->|One| D[Result one]
+C -->|Two| E[Result two]
+</p>
+
+<p><strong>纵向流程图：</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>graph TD;
+</span></span><span style="display:flex;"><span>A[christmas] --&gt;B(Go shopping)
+</span></span><span style="display:flex;"><span>B --&gt; C{Let me think}
+</span></span><span style="display:flex;"><span>C --&gt;|One| D[Laptop]
+</span></span><span style="display:flex;"><span>C --&gt;|Two| E[iPhone]
+</span></span><span style="display:flex;"><span>C --&gt;|Three|F[Car]
+</span></span></code></pre></div>
+
+<p class="mermaid">
+graph TD;
+A[christmas] -->B(Go shopping)
+B --> C{Let me think}
+C -->|One| D[Laptop]
+C -->|Two| E[iPhone]
+C -->|Three|F[Car]
+</p>
+
+<h3 id="脚注">
+  脚注
+  <a class="anchor" href="#%e8%84%9a%e6%b3%a8">#</a>
+</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>在这段文字后添加一个脚注[^footnote]。
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[^footnote]: 这里是脚注的内容。
+</span></span></code></pre></div><blockquote>
+<p>footnote 可以是任意英文字符；
+脚注的内容可以放在文章的任意位置（一般放最后）。</p>
+</blockquote>
+<h3 id="水平分隔线">
+  水平分隔线
+  <a class="anchor" href="#%e6%b0%b4%e5%b9%b3%e5%88%86%e9%9a%94%e7%ba%bf">#</a>
+</h3>
+<p>可用三个以上的<strong>减号、星号、底线</strong>在一空行中建立一条分隔线，中间可以插入空格，但行内不能有其他东西。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span><span style="font-style:italic">**</span>*
+</span></span><span style="display:flex;"><span>___
+</span></span></code></pre></div><h3 id="yaml-front-matter">
+  YAML Front Matter
+  <a class="anchor" href="#yaml-front-matter">#</a>
+</h3>
+<p>Typora 现在支持 
+  <a href="http://jekyllrb.com/docs/frontmatter/">YAML Front Matter</a>。在文章顶部输入 <code>---</code>，然后按 <code>Return</code> 引入元数据块。</p>
+<h3 id="目录">
+  目录
+  <a class="anchor" href="#%e7%9b%ae%e5%bd%95">#</a>
+</h3>
+<p>输入 <code>[toc]</code>，然后按 <code>Return</code> 键。这将创建一个“目录”部分。TOC 从文档中提取所有标题，其内容会随文档自动更新。</p>
+<h2 id="区段元素">
+  区段元素
+  <a class="anchor" href="#%e5%8c%ba%e6%ae%b5%e5%85%83%e7%b4%a0">#</a>
+</h2>
+<h3 id="链接">
+  链接
+  <a class="anchor" href="#%e9%93%be%e6%8e%a5">#</a>
+</h3>
+<p>Markdown 支持两种链接样式：<strong>行内链接</strong>和<strong>参考链接</strong>。在这两种样式中，链接文本都由 [方括号] 分隔。</p>
+<p><strong>行内链接</strong>：</p>
+<p>要创建行内链接，请在链接文本的右方括号后立即使用一组常规括号 <code>()</code>。在括号内，将您想要链接指向的 URL 以及链接的可选标题放在引号中。例如：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>This is [<span style="color:#f92672">an example</span>](<span style="color:#a6e22e">http://example.com/ &#34;Title&#34;</span>) inline link.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[<span style="color:#f92672">This link</span>](<span style="color:#a6e22e">http://example.net/</span>) has no title attribute.
+</span></span></code></pre></div><p>This is 
+  <a href="http://example.com/" title="Title">an example</a> inline link.</p>
+<p>
+  <a href="http://example.net/">This link</a> has no title attribute.</p>
+<blockquote>
+<p>Typora <strong>超链接</strong>快捷键：<code>ctrl-K</code>。通常先复制链接，然后选中文字按 <code>ctrl-K</code> 插入链接。</p>
+<p>单击链接将展开它进行编辑，<code>ctrl-Click</code> 将在 web 浏览器中打开超链接。</p>
+</blockquote>
+<p><strong>参考链接</strong>：</p>
+<p>参考链接使用第二组方括号，在方括号内放置一个您选择的标签来标识（identify）链接：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>This is [an example][id] reference-style link.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Then, anywhere in the document, you define your link label on a line by itself like this:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[id]: http://example.com/  &#34;Optional Title Here&#34;
+</span></span></code></pre></div><blockquote>
+<p><code>id</code> name 可以用字母、数字和空格，且不分大小写。</p>
+</blockquote>
+<p>另外，隐式参考链接允许您省略链接的名称，在这种情况下，链接文本本身将用作名称。只需使用一组空的方括号——例如，将“ Google”一词链接到 google.com 网站，您可以简单地编写：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>[Google][]
+</span></span><span style="display:flex;"><span>And then define the link:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[Google]: http://google.com/
+</span></span></code></pre></div><p><strong>自动链接</strong>：</p>
+<p>Markdown 支持以比较简短的自动链接形式来处理网址和电子邮件信箱，只需用 <code>&lt; &gt;</code> 包起来，Markdown 就会自动把它转成链接。例如：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>&lt;<span style="color:#f92672">http:</span><span style="color:#960050;background-color:#1e0010">//</span><span style="color:#a6e22e">example</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">com</span>/&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">address</span><span style="color:#960050;background-color:#1e0010">@</span><span style="color:#a6e22e">example</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">com</span>&gt;
+</span></span></code></pre></div><h3 id="图片">
+  图片
+  <a class="anchor" href="#%e5%9b%be%e7%89%87">#</a>
+</h3>
+<p>图片的语法与链接相似，但需要一个额外的 <code> !</code> 字符，放在链接开始之前。插入图像的语法如下：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">Alt text</span>](<span style="color:#a6e22e">/path/to/img.jpg</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>![<span style="color:#f92672">Alt text</span>](<span style="color:#a6e22e">/path/to/img.jpg &#34;Optional title&#34;</span>)
+</span></span></code></pre></div><blockquote>
+<p>Typora <strong>图片</strong>快捷键：<code>ctrl-shift-I</code></p>
+</blockquote>
+<p>您可以使用拖放功能从图像文件或 Web 浏览器中插入图片。您可以通过单击图片来修改 markdown 源代码。如果通过拖放添加的图像与您当前正在编辑的文档位于同一目录或子目录中，则将使用相对路径。</p>
+<h3 id="强调">
+  强调
+  <a class="anchor" href="#%e5%bc%ba%e8%b0%83">#</a>
+</h3>
+<p>Markdown 把星号（*）和下划线（_）作为强调标示符。用一个 * 或 _ 包裹的文本将被一个 HTML <code>&lt;em&gt;</code> 标签包裹。例如：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>*斜体*
+</span></span><span style="display:flex;"><span><span style="font-style:italic">_斜体_</span>
+</span></span></code></pre></div><p>推荐使用星号（*）。</p>
+<blockquote>
+<p>Typora <strong>斜体</strong>快捷键：<code>ctrl-I</code></p>
+</blockquote>
+<p>
+  <a href="https://help.github.com/articles/github-flavored-markdown/">GFM</a> (Github Flavored Markdown) 将忽略单词中的下划线，这通常在代码和名称中使用，如下所示：</p>
+<blockquote>
+<p>wow_great_stuff</p>
+<p>do_this_and_do_that_and_another_thing.</p>
+</blockquote>
+<p>要在原本会用作强调定界符的位置产生文字星号，您可以将其反斜杠转义：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>\*this text is surrounded by literal asterisks\*
+</span></span></code></pre></div><h3 id="粗体">
+  粗体
+  <a class="anchor" href="#%e7%b2%97%e4%bd%93">#</a>
+</h3>
+<p>用两个 <code>*</code> 将使其包裹的内容被 HTML <code>&lt;strong&gt;</code> 标签包裹。例如：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>**double asterisks**
+</span></span></code></pre></div><blockquote>
+<p>Typora <strong>粗体</strong>快捷键：<code>ctrl-B</code></p>
+</blockquote>
+<h3 id="加粗斜体">
+  加粗斜体
+  <a class="anchor" href="#%e5%8a%a0%e7%b2%97%e6%96%9c%e4%bd%93">#</a>
+</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>***加粗斜体***
+</span></span></code></pre></div><h3 id="代码">
+  代码
+  <a class="anchor" href="#%e4%bb%a3%e7%a0%81">#</a>
+</h3>
+<p>要表明行内代码，请用反引号引起来（`）。与预格式化的代码块不同，行内代码指示正常段落中的代码。例如：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>Use the <span style="color:#e6db74">`printf()`</span> function.
+</span></span></code></pre></div><p>Use the <code>printf()</code> function.</p>
+<blockquote>
+<p>Typora <strong>代码</strong>快捷键：ctrl-shift-`</p>
+</blockquote>
+<h3 id="删除线">
+  删除线
+  <a class="anchor" href="#%e5%88%a0%e9%99%a4%e7%ba%bf">#</a>
+</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>~~删除线~~
+</span></span></code></pre></div><p><code>~~Mistaken text.~~</code> becomes <del>Mistaken text.</del></p>
+<blockquote>
+<p>Typora <strong>删除线</strong>快捷键：<code>alt-shift-5</code></p>
+</blockquote>
+<h3 id="下划线">
+  下划线
+  <a class="anchor" href="#%e4%b8%8b%e5%88%92%e7%ba%bf">#</a>
+</h3>
+<p>下划线由原始 HTML 驱动。</p>
+<p><code>&lt;u&gt;Underline&lt;/u&gt;</code> becomes <u>Underline</u>.</p>
+<blockquote>
+<p>Typora <strong>下划线</strong>快捷键：<code>ctrl-U</code></p>
+</blockquote>
+<h3 id="emoji-smile">
+  Emoji :smile:
+  <a class="anchor" href="#emoji-smile">#</a>
+</h3>
+<p>使用语法 :smile: 输入表情符号。</p>
+<h3 id="下标">
+  下标
+  <a class="anchor" href="#%e4%b8%8b%e6%a0%87">#</a>
+</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>下标：H&lt;<span style="color:#f92672">sub</span>&gt;2&lt;/<span style="color:#f92672">sub</span>&gt;O
+</span></span></code></pre></div><p>下标：H<sub>2</sub>O</p>
+<h3 id="上标">
+  上标
+  <a class="anchor" href="#%e4%b8%8a%e6%a0%87">#</a>
+</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>上标：O&lt;<span style="color:#f92672">sup</span>&gt;2&lt;/<span style="color:#f92672">sup</span>&gt;
+</span></span></code></pre></div><p>上标：O<sup>2</sup></p>
+<h2 id="html">
+  HTML
+  <a class="anchor" href="#html">#</a>
+</h2>
+<p>您可以使用 HTML 样式化纯 Markdown 不支持的内容。例如，使用 <code>&lt;span style=&quot;color:red&quot;&gt;this text is red&lt;/span&gt;</code> 来添加<span style="color:red">红色文本</span>。</p>
+<h3 id="折叠内容">
+  折叠内容
+  <a class="anchor" href="#%e6%8a%98%e5%8f%a0%e5%86%85%e5%ae%b9">#</a>
+</h3>
+<p>使用 HTML 5 <code>&lt;details&gt;</code> 标签，指定用户可以按需打开和关闭的其他详细信息。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>&lt;<span style="color:#f92672">details</span>&gt; &lt;<span style="color:#f92672">summary</span>&gt;Title&lt;/<span style="color:#f92672">summary</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Contents ...
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">details</span>&gt;
+</span></span></code></pre></div><details> <summary>Title</summary>
+<p>Contents &hellip;</p>
+</details>
+<blockquote>
+<p>内容里面可以嵌套使用 Markdown 语法和 HTML 语法。</p>
+</blockquote>
+<p>折叠的用途：</p>
+<ul>
+<li>可用于<span style="color:red">折叠大段代码</span></li>
+<li>或者不重要的内容</li>
+</ul>
+<h3 id="嵌入内容">
+  嵌入内容
+  <a class="anchor" href="#%e5%b5%8c%e5%85%a5%e5%86%85%e5%ae%b9">#</a>
+</h3>
+<p>某些网站提供了基于 iframe 的嵌入代码，您也可以将其粘贴到 Typora 中。例如：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Markdown" data-lang="Markdown"><span style="display:flex;"><span>&lt;<span style="color:#f92672">iframe</span> <span style="color:#a6e22e">height</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;265&#39;</span><span style="color:#a6e22e">scrolling</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;no&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">title</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;Fancy Animated SVG Menu&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;http://codepen.io/jeangontijo/embed/OxVywj/?height=265&amp;theme-id=0&amp;default-tab=css,result&amp;embed-version=2&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">frameborder</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;no&#39;</span><span style="color:#a6e22e">allowtransparency</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;true&#39;</span><span style="color:#a6e22e">allowfullscreen</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;true&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;width: 100%;&#39;</span>&gt;&lt;/<span style="color:#f92672">iframe</span>&gt;
+</span></span></code></pre></div><iframe height='265'scrolling='no'
+title='Fancy Animated SVG Menu'
+src='http://codepen.io/jeangontijo/embed/OxVywj/?height=265&theme-id=0&default-tab=css,result&embed-version=2'
+frameborder='no'allowtransparency='true'allowfullscreen='true'
+style='width: 100%;'></iframe>
+<h3 id="audio">
+  Audio
+  <a class="anchor" href="#audio">#</a>
+</h3>
+<p>您可以使用 HTML <code>&lt;audio&gt;</code> 标签来嵌入音频。例如：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Markdown" data-lang="Markdown"><span style="display:flex;"><span>&lt;<span style="color:#f92672">audio</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;xxx.mp3&#34;</span> /&gt;
+</span></span></code></pre></div><p>src 属性可以设置为一个音频文件的 URL 或者本地文件的路径。</p>
+<h3 id="video">
+  Video
+  <a class="anchor" href="#video">#</a>
+</h3>
+<p>您可以使用 HTML <code>&lt;video&gt;</code> 标签来嵌入视频。例如：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Markdown" data-lang="Markdown"><span style="display:flex;"><span>&lt;<span style="color:#f92672">video</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;xxx.mp4&#34;</span> /&gt;
+</span></span></code></pre></div><h3 id="其他-html-支持">
+  其他 HTML 支持
+  <a class="anchor" href="#%e5%85%b6%e4%bb%96-html-%e6%94%af%e6%8c%81">#</a>
+</h3>
+<p>You can find more details 
+  <a href="https://support.typora.io/HTML/">here</a>.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+  <div><a class="flex align-center" href="https://github.com/Xalaok/md-docs/commit/d0adfac4a32379010887a52055790bf2c79e30ee" title='最后修改者 Xalaok | November 21, 2023' target="_blank" rel="noopener">
+      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>November 21, 2023</span>
+    </a>
+  </div>
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/Xalaok/md-docs/edit/main/content/docs/content/docs/syntax/_index.md" target="_blank" rel="noopener">
+      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>编辑本页</span>
+    </a>
+  </div>
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#区块元素">区块元素</a>
+          <ul>
+            <li><a href="#标题">标题</a></li>
+            <li><a href="#段落和换行符">段落和换行符</a></li>
+            <li><a href="#段首缩进">段首缩进</a></li>
+            <li><a href="#引用">引用</a></li>
+            <li><a href="#列表">列表</a></li>
+            <li><a href="#任务列表">任务列表</a></li>
+            <li><a href="#代码块">代码块</a></li>
+            <li><a href="#数学公式">数学公式</a></li>
+            <li><a href="#表格">表格</a></li>
+            <li><a href="#流程图">流程图</a></li>
+            <li><a href="#脚注">脚注</a></li>
+            <li><a href="#水平分隔线">水平分隔线</a></li>
+            <li><a href="#yaml-front-matter">YAML Front Matter</a></li>
+            <li><a href="#目录">目录</a></li>
+          </ul>
+        </li>
+        <li><a href="#区段元素">区段元素</a>
+          <ul>
+            <li><a href="#链接">链接</a></li>
+            <li><a href="#图片">图片</a></li>
+            <li><a href="#强调">强调</a></li>
+            <li><a href="#粗体">粗体</a></li>
+            <li><a href="#加粗斜体">加粗斜体</a></li>
+            <li><a href="#代码">代码</a></li>
+            <li><a href="#删除线">删除线</a></li>
+            <li><a href="#下划线">下划线</a></li>
+            <li><a href="#emoji-smile">Emoji :smile:</a></li>
+            <li><a href="#下标">下标</a></li>
+            <li><a href="#上标">上标</a></li>
+          </ul>
+        </li>
+        <li><a href="#html">HTML</a>
+          <ul>
+            <li><a href="#折叠内容">折叠内容</a></li>
+            <li><a href="#嵌入内容">嵌入内容</a></li>
+            <li><a href="#audio">Audio</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#其他-html-支持">其他 HTML 支持</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

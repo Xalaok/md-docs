@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="HTML &lt;details&gt; 标签指定了用户可以根据需要打开和关闭的额外细节。
+语法：
+&lt;details&gt; &lt;summary&gt;Title&lt;/summary&gt; contents ... &lt;/details&gt; 内容里面可以嵌套使用 Markdown 语法和 HTML 语法。
+效果：
+Title contents ... 有的 Markdown 中，可能 &lt;summary&gt; 标签与正文间要空一行。比如：
+&lt;details&gt; &lt;summary&gt;View Code&lt;/summary&gt; code ... &lt;/details&gt; 当然，有空行的话比较方便阅读源码。">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Markdown 折叠内容" />
+<meta property="og:description" content="HTML &lt;details&gt; 标签指定了用户可以根据需要打开和关闭的额外细节。
+语法：
+&lt;details&gt; &lt;summary&gt;Title&lt;/summary&gt; contents ... &lt;/details&gt; 内容里面可以嵌套使用 Markdown 语法和 HTML 语法。
+效果：
+Title contents ... 有的 Markdown 中，可能 &lt;summary&gt; 标签与正文间要空一行。比如：
+&lt;details&gt; &lt;summary&gt;View Code&lt;/summary&gt; code ... &lt;/details&gt; 当然，有空行的话比较方便阅读源码。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://md.xalaok.top/docs/syntax/detailed/details/" /><meta property="article:section" content="docs" />
+
+<meta property="article:modified_time" content="2023-11-21T20:50:37+08:00" />
+
+<title>Markdown 折叠内容 | Markdown</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="stylesheet" href="/book.min.fac6c5b1eaffa2a02364ff50bd9fab82e01b1277c544426ee86a60fba56e02d0.css" integrity="sha256-&#43;sbFser/oqAjZP9QvZ&#43;rguAbEnfFREJu6Gpg&#43;6VuAtA=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/zh.search.min.183223028697c07cb8e4555382433fafb5e7df1995257042b76032f4f0490f20.js" integrity="sha256-GDIjAoaXwHy45FVTgkM/r7Xn3xmVJXBCt2Ay9PBJDyA=" crossorigin="anonymous"></script>
+
+  <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><img src="/logo.png" alt="Logo" /><span>Markdown</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="搜索" aria-label="搜索" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li>
+<p>
+  <a href="/docs/intro/"><strong>Markdown 简介</strong></a></p>
+</li>
+<li>
+<p><strong>Markdown 语法</strong></p>
+</li>
+<li>
+<p>
+  <a href="/docs/syntax/">简明版</a></p>
+</li>
+<li>
+<p>
+  <a href="/docs/syntax/detailed/">详细版</a></p>
+<ul>
+<li>
+  <a href="/docs/syntax/detailed/headline/">标题</a></li>
+<li>
+  <a href="/docs/syntax/detailed/quote/">引用</a></li>
+<li>
+  <a href="/docs/syntax/detailed/bolditalicunderline/">加粗倾斜下划线等</a></li>
+<li>
+  <a href="/docs/syntax/detailed/link/">链接</a></li>
+<li>
+  <a href="/docs/syntax/detailed/image/">图片</a></li>
+<li>
+  <a href="/docs/syntax/detailed/list/">列表</a></li>
+<li>
+  <a href="/docs/syntax/detailed/to-do-list/">任务列表</a></li>
+<li>
+  <a href="/docs/syntax/detailed/code-block/">代码块与语法高亮</a></li>
+<li>
+  <a href="/docs/syntax/detailed/wrappingindenting/">换行与段首缩进</a></li>
+<li>
+  <a href="/docs/syntax/detailed/table/">表格</a></li>
+<li>
+  <a href="/docs/syntax/detailed/details/"class=active>折叠内容</a></li>
+<li>
+  <a href="/docs/syntax/detailed/toc/">目录</a></li>
+<li>
+  <a href="/docs/syntax/detailed/split-line/">分割线</a></li>
+<li>
+  <a href="/docs/syntax/detailed/footnote/">注脚</a></li>
+<li>
+  <a href="/docs/syntax/detailed/audio/">音频</a></li>
+<li>
+  <a href="/docs/syntax/detailed/video/">视频</a></li>
+<li>
+  <a href="/docs/syntax/detailed/symbols/">特殊符号</a></li>
+<li>
+  <a href="/docs/syntax/detailed/math-formula/">数学公式</a></li>
+<li>
+  <a href="/docs/syntax/detailed/flow-chart/">流程图</a></li>
+<li>
+  <a href="/docs/syntax/detailed/font/">设置字体、字号与颜色</a></li>
+</ul>
+</li>
+<li>
+<p>
+  <a href="/docs/document-style/"><strong>Markdown 写作规范</strong></a></p>
+<ul>
+<li>
+  <a href="/docs/document-style/layout/">文档布局</a></li>
+<li>
+  <a href="/docs/document-style/article-layout/">Article Layout</a></li>
+<li>
+  <a href="/docs/document-style/title-word-count/">文章标题多少字最合适？</a></li>
+<li>
+  <a href="/docs/document-style/punctuation-mark/">文章标题中标点符号的用法</a></li>
+<li>
+  <a href="/docs/document-style/blank/">为什么你们就是不能加个空格呢？</a></li>
+<li>
+  <a href="/docs/document-style/numbering/">数字序号的七个层级</a></li>
+<li>
+  <a href="/docs/document-style/illustrations/">怎样为文章「配图」</a></li>
+<li>
+  <a href="/docs/document-style/standard-download/">如何下载国内外标准</a></li>
+</ul>
+</li>
+<li>
+<p>
+  <a href="/docs/software/">Markdown 编辑器</a></p>
+</li>
+</ul>
+<br>
+<a target="_blank" href="https://notbyai.fyi"><img src="/notbyai.png" title="Written by Human, Not by AI"></a>
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="https://www.xalaok.top/"  target="_blank" rel="noopener">
+        Maintainer
+      </a>
+  </li>
+  
+  <li>
+    <a href="https://github.com/Xalaok/md-docs"  target="_blank" rel="noopener">
+        Github Repo
+      </a>
+  </li>
+  
+  <li>
+    <a href="https://keatonlao.gitee.io/a-study-note-for-markdown/"  target="_blank" rel="noopener">
+        Original Author
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Markdown 折叠内容</strong>
+
+  <label for="toc-control">
+    
+  </label>
+</div>
+
+
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><p>HTML <code>&lt;details&gt;</code> 标签指定了用户可以根据需要打开和关闭的额外细节。</p>
+<p>语法：</p>
+<pre tabindex="0"><code>&lt;details&gt; &lt;summary&gt;Title&lt;/summary&gt;
+contents ...
+&lt;/details&gt;
+</code></pre><p>内容里面可以嵌套使用 Markdown 语法和 HTML 语法。</p>
+<p>效果：</p>
+<details> <summary>Title</summary>
+contents ...
+</details>
+<p>有的 Markdown 中，可能 <code>&lt;summary&gt;</code> 标签与正文间要空一行。比如：</p>
+<pre tabindex="0"><code>&lt;details&gt; &lt;summary&gt;View Code&lt;/summary&gt;
+
+code ...
+
+&lt;/details&gt;
+</code></pre><p>当然，有空行的话比较方便阅读源码。</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+  <div><a class="flex align-center" href="https://github.com/Xalaok/md-docs/commit/d0adfac4a32379010887a52055790bf2c79e30ee" title='最后修改者 Xalaok | November 21, 2023' target="_blank" rel="noopener">
+      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>November 21, 2023</span>
+    </a>
+  </div>
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/Xalaok/md-docs/edit/main/content/docs/content/docs/syntax/detailed/details.md" target="_blank" rel="noopener">
+      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>编辑本页</span>
+    </a>
+  </div>
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

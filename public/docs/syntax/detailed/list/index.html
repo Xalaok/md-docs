@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Markdown 支持 有序列表 和 无序列表。
+无序列表 # 使用星号 *、加号 &#43; 或是减号 - 作为列表标记，标记符号后至少一个空格或制表符（Tab）。
+* Green - Red &#43; Blue 显示效果：
+Green Red Blue 无序列表标记符前每增加 2 个空格或是 4 个空格，增加一个层级：
+- 伟大始于渺小。 - 说和做是迥然不同的两回事。 - 行动比语言更响亮。 伟大始于渺小。 说和做是迥然不同的两回事。 行动比语言更响亮。 有序列表 # 使用数字接着一个英文句点。标记符号后面也要接着至少一个空格或制表符（Tab）。
+1. First paragraph 2. Second paragraph 3. Third paragraph First paragraph Second paragraph Third paragraph 在列表标记上使用的数字并不会影响输出的 HTML 结果，这意味着，你可以：
+1. Foo. 1. Bar. 1. Foofoo. 1. Barbar. 1. Baz. Foo. Bar. Foofoo.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Markdown 列表" />
+<meta property="og:description" content="Markdown 支持 有序列表 和 无序列表。
+无序列表 # 使用星号 *、加号 &#43; 或是减号 - 作为列表标记，标记符号后至少一个空格或制表符（Tab）。
+* Green - Red &#43; Blue 显示效果：
+Green Red Blue 无序列表标记符前每增加 2 个空格或是 4 个空格，增加一个层级：
+- 伟大始于渺小。 - 说和做是迥然不同的两回事。 - 行动比语言更响亮。 伟大始于渺小。 说和做是迥然不同的两回事。 行动比语言更响亮。 有序列表 # 使用数字接着一个英文句点。标记符号后面也要接着至少一个空格或制表符（Tab）。
+1. First paragraph 2. Second paragraph 3. Third paragraph First paragraph Second paragraph Third paragraph 在列表标记上使用的数字并不会影响输出的 HTML 结果，这意味着，你可以：
+1. Foo. 1. Bar. 1. Foofoo. 1. Barbar. 1. Baz. Foo. Bar. Foofoo." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://md.xalaok.top/docs/syntax/detailed/list/" /><meta property="article:section" content="docs" />
+
+<meta property="article:modified_time" content="2023-11-21T20:50:37+08:00" />
+
+<title>Markdown 列表 | Markdown</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="stylesheet" href="/book.min.fac6c5b1eaffa2a02364ff50bd9fab82e01b1277c544426ee86a60fba56e02d0.css" integrity="sha256-&#43;sbFser/oqAjZP9QvZ&#43;rguAbEnfFREJu6Gpg&#43;6VuAtA=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/zh.search.min.183223028697c07cb8e4555382433fafb5e7df1995257042b76032f4f0490f20.js" integrity="sha256-GDIjAoaXwHy45FVTgkM/r7Xn3xmVJXBCt2Ay9PBJDyA=" crossorigin="anonymous"></script>
+
+  <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><img src="/logo.png" alt="Logo" /><span>Markdown</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="搜索" aria-label="搜索" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li>
+<p>
+  <a href="/docs/intro/"><strong>Markdown 简介</strong></a></p>
+</li>
+<li>
+<p><strong>Markdown 语法</strong></p>
+</li>
+<li>
+<p>
+  <a href="/docs/syntax/">简明版</a></p>
+</li>
+<li>
+<p>
+  <a href="/docs/syntax/detailed/">详细版</a></p>
+<ul>
+<li>
+  <a href="/docs/syntax/detailed/headline/">标题</a></li>
+<li>
+  <a href="/docs/syntax/detailed/quote/">引用</a></li>
+<li>
+  <a href="/docs/syntax/detailed/bolditalicunderline/">加粗倾斜下划线等</a></li>
+<li>
+  <a href="/docs/syntax/detailed/link/">链接</a></li>
+<li>
+  <a href="/docs/syntax/detailed/image/">图片</a></li>
+<li>
+  <a href="/docs/syntax/detailed/list/"class=active>列表</a></li>
+<li>
+  <a href="/docs/syntax/detailed/to-do-list/">任务列表</a></li>
+<li>
+  <a href="/docs/syntax/detailed/code-block/">代码块与语法高亮</a></li>
+<li>
+  <a href="/docs/syntax/detailed/wrappingindenting/">换行与段首缩进</a></li>
+<li>
+  <a href="/docs/syntax/detailed/table/">表格</a></li>
+<li>
+  <a href="/docs/syntax/detailed/details/">折叠内容</a></li>
+<li>
+  <a href="/docs/syntax/detailed/toc/">目录</a></li>
+<li>
+  <a href="/docs/syntax/detailed/split-line/">分割线</a></li>
+<li>
+  <a href="/docs/syntax/detailed/footnote/">注脚</a></li>
+<li>
+  <a href="/docs/syntax/detailed/audio/">音频</a></li>
+<li>
+  <a href="/docs/syntax/detailed/video/">视频</a></li>
+<li>
+  <a href="/docs/syntax/detailed/symbols/">特殊符号</a></li>
+<li>
+  <a href="/docs/syntax/detailed/math-formula/">数学公式</a></li>
+<li>
+  <a href="/docs/syntax/detailed/flow-chart/">流程图</a></li>
+<li>
+  <a href="/docs/syntax/detailed/font/">设置字体、字号与颜色</a></li>
+</ul>
+</li>
+<li>
+<p>
+  <a href="/docs/document-style/"><strong>Markdown 写作规范</strong></a></p>
+<ul>
+<li>
+  <a href="/docs/document-style/layout/">文档布局</a></li>
+<li>
+  <a href="/docs/document-style/article-layout/">Article Layout</a></li>
+<li>
+  <a href="/docs/document-style/title-word-count/">文章标题多少字最合适？</a></li>
+<li>
+  <a href="/docs/document-style/punctuation-mark/">文章标题中标点符号的用法</a></li>
+<li>
+  <a href="/docs/document-style/blank/">为什么你们就是不能加个空格呢？</a></li>
+<li>
+  <a href="/docs/document-style/numbering/">数字序号的七个层级</a></li>
+<li>
+  <a href="/docs/document-style/illustrations/">怎样为文章「配图」</a></li>
+<li>
+  <a href="/docs/document-style/standard-download/">如何下载国内外标准</a></li>
+</ul>
+</li>
+<li>
+<p>
+  <a href="/docs/software/">Markdown 编辑器</a></p>
+</li>
+</ul>
+<br>
+<a target="_blank" href="https://notbyai.fyi"><img src="/notbyai.png" title="Written by Human, Not by AI"></a>
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="https://www.xalaok.top/"  target="_blank" rel="noopener">
+        Maintainer
+      </a>
+  </li>
+  
+  <li>
+    <a href="https://github.com/Xalaok/md-docs"  target="_blank" rel="noopener">
+        Github Repo
+      </a>
+  </li>
+  
+  <li>
+    <a href="https://keatonlao.gitee.io/a-study-note-for-markdown/"  target="_blank" rel="noopener">
+        Original Author
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Markdown 列表</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#无序列表">无序列表</a></li>
+        <li><a href="#有序列表">有序列表</a></li>
+        <li><a href="#列表项目中的段落">列表项目中的段落</a></li>
+        <li><a href="#列表项目内引用">列表项目内引用</a></li>
+        <li><a href="#列表项目内代码块">列表项目内代码块</a></li>
+        <li><a href="#有序列表异常">有序列表异常</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><p>Markdown 支持 <strong>有序列表</strong> 和 <strong>无序列表</strong>。</p>
+<h2 id="无序列表">
+  无序列表
+  <a class="anchor" href="#%e6%97%a0%e5%ba%8f%e5%88%97%e8%a1%a8">#</a>
+</h2>
+<p>使用星号 <code>*</code>、加号 <code>+</code> 或是减号 <code>-</code> 作为列表标记，标记符号后至少一个空格或制表符（Tab）。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">*</span> Green
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Red
+</span></span><span style="display:flex;"><span>+ Blue
+</span></span></code></pre></div><p>显示效果：</p>
+<ul>
+<li>Green</li>
+</ul>
+<ul>
+<li>Red</li>
+</ul>
+<ul>
+<li>Blue</li>
+</ul>
+<p>无序列表标记符前每增加 2 个空格或是 4 个空格，增加一个层级：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> 伟大始于渺小。
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> 说和做是迥然不同的两回事。
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">-</span> 行动比语言更响亮。
+</span></span></code></pre></div><ul>
+<li>伟大始于渺小。
+<ul>
+<li>说和做是迥然不同的两回事。
+<ul>
+<li>行动比语言更响亮。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="有序列表">
+  有序列表
+  <a class="anchor" href="#%e6%9c%89%e5%ba%8f%e5%88%97%e8%a1%a8">#</a>
+</h2>
+<p>使用数字接着一个英文句点。标记符号后面也要接着至少一个空格或制表符（Tab）。</p>
+<pre tabindex="0"><code>1. First paragraph
+2. Second paragraph
+3. Third paragraph
+</code></pre><ol>
+<li>First paragraph</li>
+<li>Second paragraph</li>
+<li>Third paragraph</li>
+</ol>
+<p>在列表标记上使用的数字并不会影响输出的 HTML 结果，这意味着，你可以：</p>
+<pre tabindex="0"><code>1.  Foo.
+1.  Bar.
+    1.  Foofoo.
+    1.  Barbar.
+1.  Baz.
+</code></pre><ol>
+<li>Foo.</li>
+<li>Bar.
+<ol>
+<li>Foofoo.</li>
+<li>Barbar.</li>
+</ol>
+</li>
+<li>Baz.</li>
+</ol>
+<p>有序列表标记符前每增加一个 Tab，增加一个层级：</p>
+<pre tabindex="0"><code>1. 他是猪吗？
+	1.1 是的，他情商太低
+	1.2 不是，他智商很高
+2. 我是狗吗？
+	2.1 是的，每天忙的累死累活(有序列表标记符号前有一个 Tab)
+	2.2 不是，要求高累点我乐意
+		2.2.1 不要想太多(有序列表标记符号前有两个 Tab)
+		2.2.2 成功有方法
+</code></pre><ol>
+<li>他是猪吗？
+1.1 是的，他情商太低
+1.2 不是，他智商很高</li>
+<li>我是狗吗？
+2.1 是的，每天忙的累死累活(有序列表标记符号前有一个 Tab)
+2.2 不是，要求高累点我乐意
+2.2.1 不要想太多(有序列表标记符号前有两个 Tab)
+2.2.2 成功有方法</li>
+</ol>
+<h2 id="列表项目中的段落">
+  列表项目中的段落
+  <a class="anchor" href="#%e5%88%97%e8%a1%a8%e9%a1%b9%e7%9b%ae%e4%b8%ad%e7%9a%84%e6%ae%b5%e8%90%bd">#</a>
+</h2>
+<p>列表项目可以包含多个段落，段落都必须缩进 4 个空格或是 1 个制表符（Tab）。</p>
+<p>无序列表：</p>
+<pre tabindex="0"><code>- Every man is his own worst enemy. Wisdom in the mind is better than money in the hand. Every man is his own worst enemy. Wisdom in the mind is better than money in the hand.
+    
+    From small beginnings comes great things.(列表项目中的段落)
+
+- Saying and doing are two different things. Actions speak louder than words. Saying and doing are two different things. Actions speak louder than words. 
+</code></pre><ul>
+<li>
+<p>Every man is his own worst enemy. Wisdom in the mind is better than money in the hand. Every man is his own worst enemy. Wisdom in the mind is better than money in the hand.</p>
+<p>From small beginnings comes great things. (列表项目中的段落)</p>
+</li>
+<li>
+<p>Saying and doing are two different things. Actions speak louder than words. Saying and doing are two different things. Actions speak louder than words.</p>
+</li>
+</ul>
+<p>有序列表：</p>
+<pre tabindex="0"><code>1. Every man is his own worst enemy. Wisdom in the mind is better than money in the hand. Every man is his own worst enemy. Wisdom in the mind is better than money in the hand.
+	
+	From small beginnings comes great things. (列表项目中的段落)
+
+2. Saying and doing are two different things. Actions speak louder than words. Saying and doing are two different things. Actions speak louder than words. 
+</code></pre><ol>
+<li>
+<p>Every man is his own worst enemy. Wisdom in the mind is better than money in the hand. Every man is his own worst enemy. Wisdom in the mind is better than money in the hand.</p>
+<p>From small beginnings comes great things. (列表项目中的段落)</p>
+</li>
+<li>
+<p>Saying and doing are two different things. Actions speak louder than words. Saying and doing are two different things. Actions speak louder than words.</p>
+</li>
+</ol>
+<h2 id="列表项目内引用">
+  列表项目内引用
+  <a class="anchor" href="#%e5%88%97%e8%a1%a8%e9%a1%b9%e7%9b%ae%e5%86%85%e5%bc%95%e7%94%a8">#</a>
+</h2>
+<p>在引用标记符 <code>&gt;</code> 前使用 2 / 4 个空格：</p>
+<pre tabindex="0"><code>- A list item with a blockquote:
+
+	&gt; This is a blockquote（上面空一行，标记符 &gt; 前有 1 个 Tab）
+	&gt; inside a list item.
+
+1. A list item with a blockquote:
+
+	&gt; This is a blockquote（上面空一行，标记符 &gt; 前有 4 个空格或者 1 个 Tab）
+	&gt; inside a list item.
+</code></pre><ul>
+<li>
+<p>A list item with a blockquote:</p>
+<blockquote>
+<p>This is a blockquote
+inside a list item.</p>
+</blockquote>
+</li>
+</ul>
+<ol>
+<li>
+<p>A list item with a blockquote:</p>
+<blockquote>
+<p>This is a blockquote
+inside a list item.</p>
+</blockquote>
+</li>
+</ol>
+<h2 id="列表项目内代码块">
+  列表项目内代码块
+  <a class="anchor" href="#%e5%88%97%e8%a1%a8%e9%a1%b9%e7%9b%ae%e5%86%85%e4%bb%a3%e7%a0%81%e5%9d%97">#</a>
+</h2>
+<p>要放代码块的话，中间空一行，然后缩进两次，也就是 8 个空格或者 2 个制表符（Tab）：</p>
+<pre tabindex="0"><code>- 一列表项包含一个代码块：
+
+        我是代码区块，我上方有一空行，前方有8个空格。
+        
+1. 一列表项包含一个代码块：
+
+        我是代码区块，我上方有一空行，前方有8个空格。
+</code></pre><ul>
+<li>
+<p>一列表项包含一个代码块：</p>
+<pre><code>  我是代码区块，我上方有一空行，前方有8个空格。
+</code></pre>
+</li>
+</ul>
+<ol>
+<li>
+<p>一列表项包含一个代码块：</p>
+<pre><code> 我是代码区块，我上方有一空行，前方有8个空格。
+</code></pre>
+</li>
+</ol>
+<h2 id="有序列表异常">
+  有序列表异常
+  <a class="anchor" href="#%e6%9c%89%e5%ba%8f%e5%88%97%e8%a1%a8%e5%bc%82%e5%b8%b8">#</a>
+</h2>
+<p>当然，项目列表很可能会不小心产生，像是下面这样的写法：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>   <span style="color:#66d9ef">1.</span> Sweet osmanthus smells ten miles.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">1986.</span> What a great season.
+</span></span></code></pre></div><p>1986 头怎么伸出去了？要避免这样的状况，你可以在<strong>句点前面加上反斜杠</strong>。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>1986\. What a great season.
+</span></span></code></pre></div></article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+  <div><a class="flex align-center" href="https://github.com/Xalaok/md-docs/commit/d0adfac4a32379010887a52055790bf2c79e30ee" title='最后修改者 Xalaok | November 21, 2023' target="_blank" rel="noopener">
+      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>November 21, 2023</span>
+    </a>
+  </div>
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/Xalaok/md-docs/edit/main/content/docs/content/docs/syntax/detailed/list.md" target="_blank" rel="noopener">
+      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>编辑本页</span>
+    </a>
+  </div>
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#无序列表">无序列表</a></li>
+        <li><a href="#有序列表">有序列表</a></li>
+        <li><a href="#列表项目中的段落">列表项目中的段落</a></li>
+        <li><a href="#列表项目内引用">列表项目内引用</a></li>
+        <li><a href="#列表项目内代码块">列表项目内代码块</a></li>
+        <li><a href="#有序列表异常">有序列表异常</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
